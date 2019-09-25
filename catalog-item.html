@@ -99,19 +99,19 @@
       <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль</p>
       <form action="#" method="post">
-          <label for="login">Логин</label>
-          <input type="text" id="login" name="login">
-          <label for="password">Пароль</label>
-          <input type="text" id="password" name="password">
+        <label for="login" class="visually-hidden">Логин</label>
+        <input type="text" id="login" name="login" placeholder="Логин">
+        <label for="password" class="visually-hidden">Пароль</label>
+        <input type="password" id="password" name="password" placeholder="Пароль">
+        <div>
           <div>
-            <div>
-              <input type="checkbox" id="remember" name="remember">
-              <label for="remember">Запомните меня</label>
-            </div>
-            <a href="">Я забыл пароль!</a>
+            <input type="checkbox" id="remember">
+            <label for="remember">Запомните меня</label>
           </div>
-          <input type="submit" value="Войти">
-        </form>
+          <a href="">Я забыл пароль!</a>
+        </div>
+        <input type="submit" value="Войти">
+      </form>
       <button type="button">Закрыть</button>
     </section>
 
