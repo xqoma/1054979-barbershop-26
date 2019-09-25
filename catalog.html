@@ -227,9 +227,21 @@
     <section>
       <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль</p>
-      <!-- Здесь будет форма -->
+      <form action="#" method="post">
+        <label for="login">Логин</label>
+        <input type="text" id="login" name="login">
+        <label for="password">Пароль</label>
+        <input type="text" id="password" name="password">
+        <div>
+          <div>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Запомните меня</label>
+          </div>
+          <a href="">Я забыл пароль!</a>
+        </div>
+        <input type="submit" value="Войти">
+      </form>
       <button type="button">Закрыть</button>
     </section>
-
   </body>
 </html>
